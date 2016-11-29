@@ -73,11 +73,10 @@ public class FragmentCriaPerfil extends BaseFragment {
 //                .setIcon(android.R.drawable.ic_dialog_alert)
 //                .show();
 
-<<<<<<< HEAD
-=======
+
         showAlertConfirmDialog(getContext(),R.string.mensagem_confirmacao_cadastro_title,R.string.sim,R.string.no,this,android.R.drawable.ic_dialog_alert);
 
->>>>>>> 81b2cce7567e75810b5eeeb25ae778404da693c1
+
     }
 
 

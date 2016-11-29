@@ -20,9 +20,8 @@
     <string name="uf">UF</string>
     <string name="pais">País</string>
     <string name="numero">Núm.</string>
-<<<<<<< HEAD
+
     <string name="mensagem_erro_criar_perfil">Falha ao criar perfil de usuário!</string>
-=======
->>>>>>> 07adeabe0f12a0f607ca8f815a54c2046961b456
+
 
 </resources>
