@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">ProjetoFInalAndroidDev</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Novo Perfil</string>
+    <string name="name">Nome</string>
+    <string name="password">Senha</string>
+    <string name="login_button">Entrar</string>
+    <string name="criar_perfil">Criar perfil</string>
+    <string name="novo_perfil_label">Novo Perfil</string>
+    <string name="salvar">Salvar</string>
+    <string name="mensagem_confirmacao_cadastro_title">Confirmar Cadastro</string>
+    <string name="mensagem_confirmacao">Deseja criar o perfil?</string>
+    <string name="sim">Sim</string>
+    <string name="no">Não</string>
+    <string name="mensagem_confirmacao_criacao_perfil">Perfil de Usuário criado com sucesso!</string>
+    <string name="complemento">Complemento</string>
+    <string name="endereco">Endereço (Rua / Avenida)</string>
+    <string name="cidade">Cidade</string>
+    <string name="uf">UF</string>
+    <string name="pais">País</string>
+    <string name="numero">Núm.</string>
+<<<<<<< HEAD
+    <string name="mensagem_erro_criar_perfil">Falha ao criar perfil de usuário!</string>
+=======
+>>>>>>> 07adeabe0f12a0f607ca8f815a54c2046961b456
+
+</resources>

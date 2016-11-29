@@ -1,0 +1,283 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.nom.cruz.marcos.projetofinalandroiddev.FragmentCriaPerfil">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/novo_perfil_label"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+<<<<<<< HEAD
+=======
+
+    <Button
+        android:id="@+id/buttonSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar"
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+>>>>>>> 07adeabe0f12a0f607ca8f815a54c2046961b456
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+        android:ems="10"
+>>>>>>> 81b2cce7567e75810b5eeeb25ae778404da693c1
+        android:inputType="textPersonName"
+        android:hint="@string/pais"
+        android:ems="10"
+        android:id="@+id/enderecoPais"
+        android:layout_above="@+id/buttonSalvar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText android:maxLength="2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textCapCharacters"
+        android:hint="@string/uf"
+        android:ems="10"
+        android:id="@+id/enderecoUf"
+        android:layout_above="@+id/enderecoPais"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+<<<<<<< HEAD
+        android:hint="@string/cidade"
+=======
+        android:hint="@string/endereco"
+>>>>>>> 07adeabe0f12a0f607ca8f815a54c2046961b456
+>>>>>>> 81b2cce7567e75810b5eeeb25ae778404da693c1
+        android:ems="10"
+        android:id="@+id/enderecoCidade"
+        android:layout_marginBottom="12dp"
+        android:layout_above="@+id/enderecoUf"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+<<<<<<< HEAD
+
+        android:hint="@string/complemento"
+=======
+        android:inputType="textPersonName"
+<<<<<<< HEAD
+        android:hint="@string/name"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+=======
+        android:hint="@string/cidade"
+>>>>>>> 81b2cce7567e75810b5eeeb25ae778404da693c1
+        android:ems="10"
+        android:id="@+id/enderecoComplemento"
+        android:layout_above="@+id/enderecoCidade"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/novoPerfilNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/name"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+<<<<<<< HEAD
+        android:layout_marginTop="12dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+=======
+        android:layout_marginBottom="22dp"
+        android:layout_alignRight="@+id/buttonSalvar"
+        android:layout_alignEnd="@+id/buttonSalvar" />
+>>>>>>> 07adeabe0f12a0f607ca8f815a54c2046961b456
+>>>>>>> 81b2cce7567e75810b5eeeb25ae778404da693c1
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+<<<<<<< HEAD
+        android:inputType="textPersonName"
+        android:hint="@string/endereco"
+=======
+<<<<<<< HEAD
+        android:inputType="textPersonName"
+        android:hint="@string/pais"
+        android:ems="10"
+        android:id="@+id/enderecoPais"
+        android:layout_above="@+id/buttonSalvar"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+=======
+
+        android:hint="@string/complemento"
+>>>>>>> 81b2cce7567e75810b5eeeb25ae778404da693c1
+        android:ems="10"
+        android:id="@+id/endereco"
+        android:layout_marginBottom="14dp"
+        android:layout_above="@+id/enderecoNumero"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/numero"
+        android:ems="10"
+        android:id="@+id/enderecoNumero"
+        android:layout_above="@+id/enderecoComplemento"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+<<<<<<< HEAD
+        android:layout_marginBottom="10dp" />
+
+    <EditText
+        android:id="@+id/novoPerfilPassword"
+=======
+        android:layout_alignRight="@+id/enderecoUf"
+        android:layout_alignEnd="@+id/enderecoUf" />
+>>>>>>> 07adeabe0f12a0f607ca8f815a54c2046961b456
+
+    <Button
+        android:id="@+id/buttonSalvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar"
+<<<<<<< HEAD
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText android:maxLength="2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textCapCharacters|text"
+        android:hint="@string/uf"
+        android:ems="10"
+        android:id="@+id/enderecoUf"
+        android:layout_above="@+id/enderecoPais"
+=======
+        android:layout_marginLeft="35dp"
+        android:layout_marginStart="35dp"
+        android:layout_alignParentBottom="true"
+>>>>>>> 07adeabe0f12a0f607ca8f815a54c2046961b456
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+<<<<<<< HEAD
+        android:id="@+id/novoPerfilPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" android:hint="@string/password"
+        android:layout_below="@+id/novoPerfilNome"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/cidade"
+        android:ems="10"
+        android:id="@+id/enderecoCidade"
+        android:layout_above="@+id/enderecoUf"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/endereco"
+        android:ems="10"
+        android:id="@+id/endereco"
+        android:layout_below="@+id/novoPerfilPassword"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/numero"
+        android:ems="10"
+        android:id="@+id/enderecoNumero"
+        android:layout_above="@+id/enderecoComplemento"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:hint="@string/complemento"
+        android:ems="10"
+        android:id="@+id/enderecoComplemento"
+        android:layout_above="@+id/enderecoUf"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="47dp" />
+=======
+>>>>>>> 81b2cce7567e75810b5eeeb25ae778404da693c1
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" android:hint="@string/password"
+        android:layout_below="@+id/novoPerfilNome"
+        android:layout_alignParentLeft="true"
+<<<<<<< HEAD
+        android:layout_alignParentStart="true" />
+=======
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp" />
+>>>>>>> 07adeabe0f12a0f607ca8f815a54c2046961b456
+>>>>>>> 81b2cce7567e75810b5eeeb25ae778404da693c1
+</RelativeLayout>
